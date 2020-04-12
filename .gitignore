@@ -1,0 +1,16 @@
+#Folder
+build/
+dist/
+
+
+#Files
+ResumeParser.egg-info/
+.DS_Store
+ResumeParser/__pycache__/*
+ResumeParser/prediction/__pycache__/*
+ResumeParser/training/__pycache__/*
+ResumeParser/prediction/.DS_Store
+ResumeParser/training/.DS_Store
+ResumeParser/.DS_Store
+ResumeParser/model/resume_dataframe.pkl
+ResumeParser/.vscode/*
