@@ -16,11 +16,11 @@ setup(
         description = 'It a simple package for training and classification of resumes.',
         long_description = readme(),
         long_description_content_type = 'text/markdown',
-        url = "https://github.com/Shreyas2306/resume_parser.git",
+        url = "https://github.com/shreyas2306/ResumeParser.git",
         author = "Shreyas Nanaware/Krushna Kumar Nalange",
-        license = "MIT",
+        license = "GNU General Public License v3.0",
         classifiers = [
-            "License :: OSI Approved :: MIT License",
+            "License :: OSI Approved :: GNU General Public License v3.0",
             "Programming Language :: Python :: 3",
             "Programming Language :: Python :: 3.7",
 
