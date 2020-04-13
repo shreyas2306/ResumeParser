@@ -1,9 +1,11 @@
 import sys
 
 
+
+
 def train(path):
     
-    from ResumeParser.training.train import Train
+    from resume_classification.training.train import Train
     train_obj = Train(path)
     try:
         train_obj.extract_resume_content()
@@ -16,7 +18,7 @@ def train(path):
 
 def predict(path):
 
-    from ResumeParser.prediction.predict import ModelPrediction
+    from resume_classification.prediction.predict import ModelPrediction
     try:
         predict_obj = ModelPrediction(path)
         predict_obj.predict()

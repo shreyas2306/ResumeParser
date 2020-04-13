@@ -1,5 +1,5 @@
-from ResumeParser import utils as st
-from ResumeParser import config as cf
+from resume_classification import utils as st
+from resume_classification import config as cf
 
 import re
 import pickle
@@ -185,7 +185,7 @@ class Train :
         @param data :: object: Object to be saved.
         '''
         file_name = cf.FILE_NAME + filename + '.pkl'
-        
+        #file_name = './model/' + filename +'.pkl'
         pickle.dump(data, open(file_name, 'wb'))
         logger.info('{} saved successfully at location : {}'.format(filename, str(file_name)))
 

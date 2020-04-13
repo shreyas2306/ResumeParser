@@ -1,7 +1,7 @@
 import pkg_resources
 
 ['Train']
-FILE_NAME = pkg_resources.resource_filename('ResumeParser', 'model/')
+FILE_NAME = pkg_resources.resource_filename('resume_classification', 'model/')
 
 ['Prediction']
 PATH_CLF = FILE_NAME + 'latest_model.pkl'

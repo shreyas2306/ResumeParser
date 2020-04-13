@@ -1,5 +1,5 @@
-from ResumeParser import utils as st
-from ResumeParser import config as cf
+from resume_classification import utils as st
+from resume_classification import config as cf
 
 import warnings
 warnings.filterwarnings('ignore')

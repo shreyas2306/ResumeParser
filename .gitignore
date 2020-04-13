@@ -4,13 +4,13 @@ dist/
 
 
 #Files
-ResumeParser.egg-info/
+resume_classification.egg-info/
 .DS_Store
-ResumeParser/__pycache__/*
-ResumeParser/prediction/__pycache__/*
-ResumeParser/training/__pycache__/*
-ResumeParser/prediction/.DS_Store
-ResumeParser/training/.DS_Store
-ResumeParser/.DS_Store
-ResumeParser/model/resume_dataframe.pkl
-ResumeParser/.vscode/*
+resume_classification/__pycache__/*
+resume_classification/prediction/__pycache__/*
+resume_classification/training/__pycache__/*
+resume_classification/prediction/.DS_Store
+resume_classification/training/.DS_Store
+resume_classification/.DS_Store
+resume_classification/model/resume_dataframe.pkl
+resume_classification/.vscode/*
