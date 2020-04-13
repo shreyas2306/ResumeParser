@@ -13,4 +13,5 @@ resume_classification/prediction/.DS_Store
 resume_classification/training/.DS_Store
 resume_classification/.DS_Store
 resume_classification/model/resume_dataframe.pkl
+resume_classification/.vscode
 resume_classification/.vscode/*
