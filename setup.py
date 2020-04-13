@@ -12,7 +12,7 @@ def readme():
 
 setup(
         name = 'resume_classification',
-        version = '1.0.0',
+        version = '1.0',
         description = 'It a simple package for training and classification of resumes.',
         long_description = readme(),
         long_description_content_type = 'text/markdown',
