@@ -21,7 +21,7 @@ NOTE: To know more about tika visit the following link: https://pypi.org/project
 
 ## Installation
 
-`pip install resume_classification`
+`pip install resume-classification`
 
 ## Dependencies
 
